@@ -14,7 +14,7 @@ const app = express();
 // Middlewares
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://your-frontend.vercel.app"
+  "https://shipet-main.vercel.app"
 ];
 
 app.use(cors({
