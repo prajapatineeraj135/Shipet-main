@@ -1,4 +1,6 @@
-import { apiClient } from "@/services/apiClient";
+// import { apiClient } from "@/services/apiClient";
+
+import apiClient from "@/services/apiClient";
 
 export interface User {
   role: any;
