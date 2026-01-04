@@ -44,6 +44,11 @@ app.get("/", (req, res) => {
     res.send("Backend Running ✅");
 });
 
+app.get("/api/health", (req, res) => {
+  res.json({ status: "Backend working ✅" });
+});
+
+
 //Route
 app.use("/api/auth", require("./routes/authRoutes"));
 app.use("/api/wallet", require("./routes/walletRoutes"));
