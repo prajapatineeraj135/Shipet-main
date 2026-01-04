@@ -14,7 +14,8 @@ const app = express();
 // Middlewares
 const allowedOrigins = [
   "http://localhost:3000",
-  "https://shipet-main.vercel.app"
+  "https://shipet-main.vercel.app",
+  "https://lightcyan-yak-679712.hostingersite.com"
 ];
 
 app.use(cors({
